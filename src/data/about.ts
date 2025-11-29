@@ -1,5 +1,5 @@
 import type { AboutConfig } from '../types/config';
-import { getImageUrl } from '../lib/placeholder-images.ts';
+import { getImageUrl } from '../lib/placeholder-images';
 
 export const aboutConfig: AboutConfig = {
     HEADER: {

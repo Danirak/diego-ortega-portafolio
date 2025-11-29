@@ -1,5 +1,5 @@
 import type { ProjectsConfig } from '../types/config';
-import { getImageUrl } from '../lib/placeholder-images.ts';
+import { getImageUrl } from '../lib/placeholder-images';
 
 export const projectsConfig: ProjectsConfig = {
     HEADER: {

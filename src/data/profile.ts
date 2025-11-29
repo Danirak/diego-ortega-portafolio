@@ -1,5 +1,5 @@
 import type { ProfileConfig } from '../types/config';
-import { getImageUrl } from '../lib/placeholder-images.ts';
+import { getImageUrl } from '../lib/placeholder-images';
 
 export const profileConfig: ProfileConfig = {
     HEADER: {

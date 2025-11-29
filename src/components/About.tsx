@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AboutConfig, ProfileConfig } from '../types/config';
-import { getImageUrl } from '../lib/placeholder-images.ts';
+import { getImageUrl } from '../lib/placeholder-images';
 
 interface AboutProps {
     about: AboutConfig;

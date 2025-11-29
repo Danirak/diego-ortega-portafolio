@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { isDaytime } from '../lib/theme-init.ts';
+import { isDaytime } from '../lib/theme-init';
 
 /**
  * ThemeToggle component para cambiar entre tema día y noche
