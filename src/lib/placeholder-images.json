@@ -1,0 +1,275 @@
+[
+    {
+        "id": "logo-icon",
+        "description_es": "Icono del logo del sitio",
+        "description_en": "Site logo icon",
+        "imageUrl": "/logo.ico",
+        "imageHint": "logo"
+    },
+    {
+        "id": "logo-svg",
+        "description_es": "Logo del sitio en formato SVG",
+        "description_en": "Site logo in SVG format",
+        "imageUrl": "/logo.svg",
+        "imageHint": "logo"
+    },
+    {
+        "id": "icon-quote",
+        "description_es": "Icono de comillas para citas",
+        "description_en": "Quote icon for testimonials",
+        "imageUrl": "/images/icon-quote.svg",
+        "imageHint": "common"
+    },
+    {
+        "id": "yo-ia",
+        "description_es": "Avatar principal del usuario",
+        "description_en": "Main user avatar",
+        "imageUrl": "/avatars/yo-ia.png",
+        "imageHint": "avatar"
+    },
+    {
+        "id": "avatar-1",
+        "description_es": "Avatar alternativo 1",
+        "description_en": "Alternative avatar 1",
+        "imageUrl": "/avatars/avatar-1.png",
+        "imageHint": "avatar"
+    },
+    {
+        "id": "avatar-2",
+        "description_es": "Avatar alternativo 2",
+        "description_en": "Alternative avatar 2",
+        "imageUrl": "/avatars/avatar-2.png",
+        "imageHint": "avatar"
+    },
+    {
+        "id": "avatar-3",
+        "description_es": "Avatar alternativo 3",
+        "description_en": "Alternative avatar 3",
+        "imageUrl": "/avatars/avatar-3.png",
+        "imageHint": "avatar"
+    },
+    {
+        "id": "avatar-4",
+        "description_es": "Avatar alternativo 4",
+        "description_en": "Alternative avatar 4",
+        "imageUrl": "/avatars/avatar-4.png",
+        "imageHint": "avatar"
+    },
+    {
+        "id": "icon-iot",
+        "description_es": "Icono de IoT/Dispositivos",
+        "description_en": "IoT/Devices icon",
+        "imageUrl": "/icons/iot.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-cloud-devops",
+        "description_es": "Icono de nube/DevOps",
+        "description_en": "Cloud/DevOps icon",
+        "imageUrl": "/icons/cloud-devops.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-code",
+        "description_es": "Icono de código",
+        "description_en": "Code icon",
+        "imageUrl": "/icons/code.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-compass",
+        "description_es": "Icono de brújula/diseño",
+        "description_en": "Compass/design icon",
+        "imageUrl": "/icons/compass.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-analytics",
+        "description_es": "Icono de análisis/datos",
+        "description_en": "Analytics/data icon",
+        "imageUrl": "/icons/analytics.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-bolt",
+        "description_es": "Icono de rayo/velocidad",
+        "description_en": "Lightning/speed icon",
+        "imageUrl": "/icons/bolt.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-project-management",
+        "description_es": "Icono de gestión de proyectos",
+        "description_en": "Project management icon",
+        "imageUrl": "/icons/project-management.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-comment",
+        "description_es": "Icono de comentario/comunicación",
+        "description_en": "Comment/communication icon",
+        "imageUrl": "/icons/comment.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "icon-python",
+        "description_es": "Logo de Python",
+        "description_en": "Python logo",
+        "imageUrl": "/icons/python.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-git",
+        "description_es": "Logo de Git",
+        "description_en": "Git logo",
+        "imageUrl": "/icons/git.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-azure",
+        "description_es": "Logo de Microsoft Azure",
+        "description_en": "Microsoft Azure logo",
+        "imageUrl": "/icons/azure.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-postgresql",
+        "description_es": "Logo de PostgreSQL",
+        "description_en": "PostgreSQL logo",
+        "imageUrl": "/icons/postgresql.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-docker",
+        "description_es": "Logo de Docker",
+        "description_en": "Docker logo",
+        "imageUrl": "/icons/docker.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-powerbi",
+        "description_es": "Logo de Power BI",
+        "description_en": "Power BI logo",
+        "imageUrl": "/icons/powerbi.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-lorawan",
+        "description_es": "Logo de LoRaWAN",
+        "description_en": "LoRaWAN logo",
+        "imageUrl": "/icons/lorawan.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-react",
+        "description_es": "Logo de React",
+        "description_en": "React logo",
+        "imageUrl": "/icons/react.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-laravel",
+        "description_es": "Logo de Laravel",
+        "description_en": "Laravel logo",
+        "imageUrl": "/icons/laravel.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-databricks",
+        "description_es": "Logo de Databricks",
+        "description_en": "Databricks logo",
+        "imageUrl": "/icons/databricks.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-n8n",
+        "description_es": "Logo de n8n",
+        "description_en": "n8n logo",
+        "imageUrl": "/icons/n8n.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-grafana",
+        "description_es": "Logo de Grafana",
+        "description_en": "Grafana logo",
+        "imageUrl": "/icons/grafana.svg",
+        "imageHint": "technology"
+    },
+    {
+        "id": "icon-team",
+        "description_es": "Icono de equipo",
+        "description_en": "Team icon",
+        "imageUrl": "/icons/team.svg",
+        "imageHint": "icon"
+    },
+    {
+        "id": "jmservicios-web",
+        "description_es": "Imagen del proyecto JMServicios SPA",
+        "description_en": "JMServicios SPA project image",
+        "imageUrl": "/projects/jmservicios-web.png",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-1",
+        "description_es": "Imagen del proyecto 1",
+        "description_en": "Project 1 image",
+        "imageUrl": "/projects/project-1.jpg",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-2",
+        "description_es": "Imagen del proyecto 2",
+        "description_en": "Project 2 image",
+        "imageUrl": "/projects/project-2.png",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-3",
+        "description_es": "Imagen del proyecto 3",
+        "description_en": "Project 3 image",
+        "imageUrl": "/projects/project-3.jpg",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-4",
+        "description_es": "Imagen del proyecto 4",
+        "description_en": "Project 4 image",
+        "imageUrl": "/projects/project-4.png",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-5",
+        "description_es": "Imagen del proyecto 5",
+        "description_en": "Project 5 image",
+        "imageUrl": "/projects/project-5.png",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-6",
+        "description_es": "Imagen del proyecto 6",
+        "description_en": "Project 6 image",
+        "imageUrl": "/projects/project-6.png",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-7",
+        "description_es": "Imagen del proyecto 7",
+        "description_en": "Project 7 image",
+        "imageUrl": "/projects/project-7.png",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-8",
+        "description_es": "Imagen del proyecto 8",
+        "description_en": "Project 8 image",
+        "imageUrl": "/projects/project-8.jpg",
+        "imageHint": "project"
+    },
+    {
+        "id": "project-9",
+        "description_es": "Imagen del proyecto 9",
+        "description_en": "Project 9 image",
+        "imageUrl": "/projects/project-9.png",
+        "imageHint": "project"
+    }
+]
