@@ -1,32 +1,96 @@
-# CV estático — Diego Andrés Ortega Araya
+# Diego Ortega - Portafolio Personal
 
-Sitio HTML/CSS simple y accesible para publicar el currículum en GitHub Pages.
+Portafolio profesional moderno y completamente responsive, construido con HTML, CSS y JavaScript puro.
 
-## Archivos
-- `index.html`: contenido del CV.
-- `styles.css`: estilos del sitio.
-- `CV.md`: versión Markdown editable del CV.
+## ✨ Características
 
-## Publicar en GitHub Pages
-1. Crea un repositorio en GitHub, por ejemplo `diego-ortega-cv`.
-2. Sube estos archivos a la raíz del repositorio.
-3. En GitHub, ve a `Settings` → `Pages`.
-4. En **Build and deployment**, elige **Deploy from a branch**.
-5. Selecciona la rama (por ejemplo `main`) y la carpeta `/root`.
-6. Guarda. Tu sitio quedará publicado en `https://<tu-usuario>.github.io/diego-ortega-cv/`.
+- 🎨 Diseño moderno con tema oscuro
+- 📱 Totalmente responsive (móvil, tablet, escritorio)
+- 🚀 Navegación por pestañas fluida
+- 🎯 Sistema de filtros para proyectos
+- ⚡ Animaciones suaves y transiciones
+- 📧 Formulario de contacto funcional
+- 🌐 Desplegado automáticamente en GitHub Pages
 
-## Personalización rápida
-- Reemplaza `[Tu Teléfono]`, `[Tu Email]`, `LinkedIn` y `GitHub/Portafolio` en `index.html`.
-- Actualiza secciones de experiencia, habilidades e idiomas en `CV.md` y refleja cambios en `index.html`.
-- Puedes cambiar colores en `styles.css` editando las variables `--bg`, `--card`, `--text`, `--accent`.
+## 🛠️ Tecnologías
 
-## Opcional: dominio personalizado
-1. Compra/configura tu dominio (ej. `cv.diegoortega.cl`).
-2. En `Settings` → `Pages`, agrega el dominio.
-3. Crea un archivo `CNAME` en la raíz con el dominio.
-4. Configura DNS tipo `A` y `CNAME` apuntando a GitHub Pages.
+- **HTML5**: Estructura semántica
+- **CSS3**: Variables CSS, Grid, Flexbox, animaciones
+- **JavaScript**: Vanilla JS para funcionalidad interactiva
+- **Ionicons**: Biblioteca de iconos
+- **Google Fonts**: Tipografía Poppins
 
-## Accesibilidad y rendimiento
-- HTML semántico (`header`, `section`, `article`, `footer`).
-- Contraste alto y tipografía legible.
-- Página ligera, sin JS.
+## 📂 Estructura del Proyecto
+
+```
+diego-ortega-cv/
+├── index.html          # Página principal
+├── styles.css          # Estilos completos
+├── script.js           # Funcionalidad JavaScript
+├── favicon.svg         # Favicon del sitio
+├── og-image.svg        # Imagen para redes sociales
+├── CV.md              # Currículum en markdown (referencia)
+├── README.md          # Este archivo
+└── .github/
+    └── workflows/
+        └── pages.yml   # GitHub Actions para deploy automático
+```
+
+## 🎯 Secciones
+
+1. **Sobre Mí**: Introducción, servicios y habilidades técnicas
+2. **Currículum**: Experiencia laboral, educación y competencias
+3. **Portafolio**: Proyectos destacados con sistema de filtros
+4. **Contacto**: Formulario de contacto funcional
+
+## 🚀 Despliegue Automático
+
+El sitio se actualiza automáticamente cuando se hacen cambios en la rama `main` gracias a GitHub Actions.
+
+## 🌐 URL del Sitio
+
+https://danirak.github.io/diego-ortega-cv/
+
+## 💻 Desarrollo Local
+
+Para ver el sitio localmente:
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/Danirak/diego-ortega-cv.git
+```
+
+2. Abre `index.html` en tu navegador web favorito
+
+No se requieren dependencias ni instalación adicional.
+
+## 📝 Personalización
+
+### Modificar Contenido
+
+- **Información personal**: Edita las secciones en `index.html`
+- **Estilos y colores**: Modifica las variables CSS en `:root` en `styles.css`
+- **Comportamiento**: Ajusta la funcionalidad en `script.js`
+
+### Variables CSS Principales
+
+```css
+--orange-yellow-crayola: hsl(45, 100%, 72%);  /* Color principal */
+--smoky-black: hsl(0, 0%, 7%);                 /* Fondo */
+--eerie-black-2: hsl(240, 2%, 12%);           /* Tarjetas */
+```
+
+## 📧 Contacto
+
+- **Email**: 11.diego.ortega@gmail.com
+- **LinkedIn**: [diego-ortega-5801b2206](https://www.linkedin.com/in/diego-ortega-5801b2206)
+- **GitHub**: [Danirak](https://github.com/Danirak)
+- **Teléfono**: +56 9 6344 5586
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia MIT. Puedes usar este código como base para tu propio portafolio.
+
+## 🙏 Créditos
+
+Diseño inspirado en el proyecto [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) con modificaciones y mejoras personalizadas.
