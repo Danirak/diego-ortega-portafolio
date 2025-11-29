@@ -1,154 +1,163 @@
-# Diego Ortega - Portafolio Personal
+<!-- markdownlint-disable MD033 MD036 MD041 MD045 MD046 -->
+<div align="center">
 
-Portafolio profesional moderno y completamente responsive, construido con HTML, CSS y JavaScript puro.
+<h1 style="border-bottom: none">
+    <b><a href="https://danirak.github.io/diego-ortega-portafolio">Personal Portfolio - Developer</a></b>
+</h1>
 
-## ✨ Características
+**`Personal Portfolio`** is a fully responsive personal developer portfolio single-page website, <br/>
+responsive for all devices, built using **`React`**, **`TypeScript`**, **`Vite`**, and **`CSS`**.
 
-- 🎨 Diseño moderno con tema oscuro
-- 📱 Totalmente responsive (móvil, tablet, escritorio)
-- 🚀 Navegación por pestañas fluida
-- 🎯 Sistema de filtros para proyectos
-- ⚡ Animaciones suaves y transiciones
-- 📧 Formulario de contacto funcional
-- 🌐 Desplegado automáticamente en GitHub Pages
+![Made-with-react](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react)
+![Made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-3178C6?logo=typescript)
+[![Deploy](https://github.com/Danirak/diego-ortega-portafolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Danirak/diego-ortega-portafolio/actions/workflows/deploy.yml)
+![GitHub repo size](https://img.shields.io/github/repo-size/Danirak/diego-ortega-portafolio)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🛠️ Tecnologías
+![GitHub stars][github-stars]
+![GitHub forks][github-forks]
 
-- **HTML5**: Estructura semántica
-- **CSS3**: Variables CSS, Grid, Flexbox, animaciones
-- **JavaScript**: Vanilla JS para funcionalidad interactiva
-- **Ionicons**: Biblioteca de iconos
-- **Google Fonts**: Tipografía Poppins
+</div>
 
-## 📂 Estructura del Proyecto
+---
 
-```
-diego-ortega-portafolio/
-├── index.html                 # Página principal
-├── 404.html                   # Página de error personalizada
-├── README.md                  # Este archivo
-├── AGENTS.md                  # Reglas para agentes IA
-├── CV.md                      # Currículum en markdown
-├── .gitignore                 # Archivos ignorados
-│
-├── src/
-│   ├── css/
-│   │   ├── base/              # Estilos base
-│   │   │   ├── variables.css  # Variables CSS
-│   │   │   ├── reset.css      # Reset CSS
-│   │   │   └── utilities.css  # Clases utilitarias
-│   │   ├── layout/            # Layout principal
-│   │   │   └── main.css       # Estructura main
-│   │   ├── components/        # Componentes
-│   │   │   ├── sidebar.css    # Sidebar
-│   │   │   ├── navbar.css     # Navegación
-│   │   │   ├── about.css      # Sobre Mí
-│   │   │   ├── resume.css     # Currículum
-│   │   │   ├── portfolio.css  # Portafolio
-│   │   │   └── contact.css    # Contacto
-│   │   ├── responsive/        # Media queries
-│   │   │   ├── mobile.css     # Móvil
-│   │   │   ├── tablet.css     # Tablet
-│   │   │   └── desktop.css    # Desktop
-│   │   └── styles.css         # Archivo principal
-│   │
-│   ├── js/
-│   │   ├── components/        # Módulos de componentes
-│   │   │   ├── sidebar.js     # Lógica del sidebar
-│   │   │   ├── navigation.js  # Sistema de navegación
-│   │   │   ├── portfolio.js   # Filtros de portafolio
-│   │   │   └── contactForm.js # Formulario de contacto
-│   │   ├── utils/             # Utilidades
-│   │   │   └── helpers.js     # Funciones auxiliares
-│   │   └── main.js            # Punto de entrada JS
-│   │
-│   └── assets/
-│       ├── images/            # Imágenes
-│       │   ├── profile/       # Fotos de perfil
-│       │   ├── projects/      # Imágenes de proyectos
-│       │   └── og-image.svg   # Open Graph image
-│       └── icons/             # Iconos
-│           ├── favicon.svg    # Favicon
-│           ├── navbar/        # Iconos navegación
-│           ├── sidebar/       # Iconos sidebar
-│           ├── services/      # Iconos servicios
-│           └── skills/        # Iconos habilidades
-│
-├── scripts/                   # Scripts de automatización
-│   ├── run-architecture.md    # Documentación de arquitectura
-│   └── run-pm.md             # Gestión de proyectos
-│
-└── .github/
-    └── workflows/
-        └── pages.yml          # GitHub Actions
-```
+<div align="center">
 
-## 🎯 Secciones
+![Demo][demo]
+**`Live Demo:`** 👉🏽 [danirak.github.io/diego-ortega-portafolio][devfolio]
 
-1. **Sobre Mí**: Introducción, servicios y habilidades técnicas con barras de progreso
-2. **Currículum**: Experiencia laboral, educación y competencias profesionales
-3. **Portafolio**: Proyectos destacados con sistema de filtros (IoT, Web, Cloud)
-4. **Contacto**: Formulario de contacto funcional con validación
+</div>
 
-## 🏗️ Arquitectura
+## **How to make it yours?**
 
-El proyecto sigue una **arquitectura modular** con separación de responsabilidades:
+### Step 1
 
-- **HTML**: Estructura semántica en `index.html`
-- **CSS**: Módulos separados por responsabilidad (base, layout, components, responsive)
-- **JavaScript**: Módulos ES6 con import/export
-- **Assets**: Organización por tipo (images, icons) y contexto (profile, projects, navbar, etc.)
+Fork this project and rename the repo to `your_github_username.github.io`.
 
-Para más detalles, consulta [`scripts/run-architecture.md`](scripts/run-architecture.md).
+> [!IMPORTANT]
+> For example, if your GitHub username is `danirak`. Rename the repository to `danirak.github.io`
 
-## 🚀 Despliegue Automático
+### Step 2
 
-El sitio se actualiza automáticamente cuando se hacen cambios en la rama `main` gracias a GitHub Actions.
+Enable GitHub Pages on:
 
-## 🌐 URL del Sitio
+`Repository(Settings) > Pages > Build and deployment > Source(GitHub Actions)`
 
-https://danirak.github.io/diego-ortega-portafolio/
+### Step 3
 
-## 💻 Desarrollo Local
+Enable workflows:
 
-Para ver el sitio localmente:
+`Repository(Actions) > I understand my workflows, go ahead and enable them`
 
-1. Clona el repositorio:
+### Step 4
+
+Go to the `src/data/` folder and replace the default data with your personal information in the TypeScript files.
+
 ```bash
-git clone https://github.com/Danirak/diego-ortega-portafolio.git
+src/data
+├── about.ts       # About section data
+├── blog.ts        # Blog posts data
+├── contact.ts     # Contact information
+├── navbar.ts      # Navigation menu
+├── profile.ts     # Profile/sidebar data
+├── projects.ts    # Portfolio projects
+├── resume.ts      # Education, experience, skills
+└── index.ts       # Main config export
 ```
 
-2. Abre `index.html` en tu navegador web favorito
+For example, to set your contact information, edit `src/data/profile.ts`.
 
-No se requieren dependencias ni instalación adicional.
-
-## 📝 Personalización
-
-### Modificar Contenido
-
-- **Información personal**: Edita las secciones en `index.html`
-- **Estilos y colores**: Modifica las variables CSS en `:root` en `styles.css`
-- **Comportamiento**: Ajusta la funcionalidad en `script.js`
-
-### Variables CSS Principales
-
-```css
---orange-yellow-crayola: hsl(45, 100%, 72%);  /* Color principal */
---smoky-black: hsl(0, 0%, 7%);                 /* Fondo */
---eerie-black-2: hsl(240, 2%, 12%);           /* Tarjetas */
+```typescript
+export const profileConfig: ProfileConfig = {
+  USER: {
+    role: "iOS Developer",
+    name: "Richard Hendricks",
+    username: "richardhendricks",
+    avatar: "/config/assets/avatars/my-avatar.png"
+  },
+  INFO: [
+    {
+      label: "Email",
+      value: "richard@example.com",
+      icon: "mail-outline"
+    },
+    // ... more info
+  ],
+  // ... more config
+};
 ```
 
-## 📧 Contacto
+> [!IMPORTANT]
+> TypeScript provides type safety and autocompletion. Your IDE will help you understand the expected data structure for each field.
 
-- **Email**: 11.diego.ortega@gmail.com
-- **LinkedIn**: [diego-ortega-5801b2206](https://www.linkedin.com/in/diego-ortega-5801b2206)
-- **GitHub**: [Danirak](https://github.com/Danirak)
-- **Teléfono**: +56 9 6344 5586
+<br/>
 
-## 📄 Licencia
+> [!TIP]
+> You can upload your images directly to the `config/assets` folder or use an image server like [Imgur][imgur]. Both options are valid for customizing your portfolio. For example:
+>
+> `avatar: "https://i.imgur.com/H5gx7JF.png"`
+>
+> `avatar: "/config/assets/avatars/my-avatar.png"`
 
-Este proyecto está bajo licencia MIT. Puedes usar este código como base para tu propio portafolio.
+### Step 5: Development
 
-## 🙏 Créditos
+To run the project locally:
 
-Diseño inspirado en el proyecto [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) con modificaciones y mejoras personalizadas.
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+### Step 6: Enjoy 😉
+
+Now you can visit your portfolio at `https://your_github_username.github.io`
+
+Your personal portfolio will be built and updated automatically whenever any changes occur in the configuration files.
+
+> [!NOTE]
+> If you like my work and want to show some ❤️, please consider giving a ⭐️ to this Repository.
+
+## Screenshots
+
+![Desktop Demo][desktop-screenshot]
+![Mobile Demo][mobile-screenshot]
+
+## Contribute
+
+Contributions are welcome.
+
+## Facing any Issue?
+
+Feel free to open an [Issue][issue] :)
+
+## Contact
+
+If you want to contact me you can reach me at [Discord][discord].
+
+## Credits
+
+This project is based on [vcard portfolio][vcard] and was migrated from Python/Jinja2 to React/TypeScript using Vite.
+
+## License
+
+MIT
+
+[vcard]: https://github.com/codewithsadee/vcard-personal-portfolio
+[devfolio]: https://danirak.github.io/diego-ortega-portafolio
+[demo]: https://raw.githubusercontent.com/ivansaul/demos/master/python/personal-portfolio-demo.gif
+[discord]: https://discord.com/users/744755977684779038
+[issue]: https://github.com/Danirak/diego-ortega-portafolio/issues
+[github-stars]: https://img.shields.io/github/stars/Danirak/diego-ortega-portafolio?style=social
+[github-forks]: https://img.shields.io/github/forks/Danirak/diego-ortega-portafolio?style=social
+[desktop-screenshot]: https://i.imgur.com/xKkMSwR.png
+[mobile-screenshot]: https://i.imgur.com/G1A1nBu.png
+[imgur]: https://imgur.com
