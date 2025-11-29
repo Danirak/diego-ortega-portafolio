@@ -1,6 +1,5 @@
 # Custom
 *.ipynb
-index.html
 
 # Vite & React
 node_modules
