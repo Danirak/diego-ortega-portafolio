@@ -1,189 +1,254 @@
 <div align="center">
 
-# 🚀 Diego Ortega - Portfolio Personal
+# 🚀 Diego Ortega - Portfolio Profesional
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-success?style=for-the-badge)](https://danirak.github.io/diego-ortega-portafolio)
-[![GitHub Pages](https://img.shields.io/github/deployments/Danirak/diego-ortega-portafolio/github-pages?label=Deploy&style=for-the-badge)](https://github.com/Danirak/diego-ortega-portafolio/deployments)
+[![Live Demo](https://img.shields.io/badge/🌐_Demo-Live-success?style=for-the-badge)](https://danirak.github.io/diego-ortega-portafolio)
+[![GitHub Pages](https://img.shields.io/github/deployments/Danirak/diego-ortega-portafolio/github-pages?label=Deploy&style=for-the-badge&logo=github)](https://github.com/Danirak/diego-ortega-portafolio/deployments)
 
-![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-3178C6?logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5.0.8-646CFF?logo=vite&logoColor=white)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=flat-square&logo=vite&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 
-Portfolio profesional moderno y totalmente responsive, desarrollado como Single Page Application (SPA) con arquitectura component-based y sistema de temas dinámico día/noche.
+**Portfolio profesional moderno, totalmente responsive y optimizado.**  
+Single Page Application construida con arquitectura component-based y sistema de temas dinámico.
 
-[🌐 Ver Demo](https://danirak.github.io/diego-ortega-portafolio) · [📖 Documentación](./ARCHITECTURE.md) · [🐛 Reportar Bug](https://github.com/Danirak/diego-ortega-portafolio/issues)
+[🌐 Ver Demo](https://danirak.github.io/diego-ortega-portafolio) • [📖 Arquitectura](./ARCHITECTURE.md) • [🐛 Issues](https://github.com/Danirak/diego-ortega-portafolio/issues)
+
+![Portfolio Preview](https://via.placeholder.com/800x400/1e1e2e/cdd6f4?text=Diego+Ortega+Portfolio)
 
 </div>
 
 ---
 
-## ✨ Características
+## ✨ Características Principales
 
-- 🎨 **Sistema de Temas Dinámico** - Cambio automático día/noche basado en hora local (6AM-6PM)
-- 📱 **Totalmente Responsive** - Diseño adaptativo para todos los dispositivos
-- ⚡ **Performance Optimizado** - Build con Vite, lazy loading y assets optimizados
-- 🔒 **Type-Safe** - TypeScript estricto con interfaces completas
-- 🎯 **Hash Routing** - Navegación sin recarga con URLs semánticas
-- 🖼️ **Sistema de Imágenes Centralizado** - Gestión type-safe de assets
-- 🚀 **CI/CD Automatizado** - Deployment automático a GitHub Pages
-- ♿ **Accesible** - Semántica HTML y navegación por teclado
+<table>
+  <tr>
+    <td align="center">🎨</td>
+    <td><strong>Sistema de Temas Dinámico</strong><br/>Cambio automático día/noche según hora local (6AM-6PM) con persistencia en localStorage</td>
+  </tr>
+  <tr>
+    <td align="center">📱</td>
+    <td><strong>Diseño Responsive</strong><br/>Adaptación perfecta a móviles, tablets y escritorio con CSS moderno</td>
+  </tr>
+  <tr>
+    <td align="center">⚡</td>
+    <td><strong>Performance Optimizado</strong><br/>Build con Vite, lazy loading, code splitting y assets optimizados</td>
+  </tr>
+  <tr>
+    <td align="center">🔒</td>
+    <td><strong>Type-Safe</strong><br/>TypeScript estricto con interfaces completas para toda la configuración</td>
+  </tr>
+  <tr>
+    <td align="center">🎯</td>
+    <td><strong>Hash Routing</strong><br/>Navegación sin recarga con URLs semánticas (#about, #resume, #portfolio)</td>
+  </tr>
+  <tr>
+    <td align="center">🖼️</td>
+    <td><strong>Gestión de Imágenes Centralizada</strong><br/>Sistema type-safe con JSON registry y funciones helper</td>
+  </tr>
+  <tr>
+    <td align="center">🚀</td>
+    <td><strong>CI/CD Automatizado</strong><br/>Deployment automático a GitHub Pages con cada push</td>
+  </tr>
+  <tr>
+    <td align="center">♿</td>
+    <td><strong>Accesible</strong><br/>Semántica HTML5 correcta y soporte para navegación por teclado</td>
+  </tr>
+</table>
 
 ## 🛠️ Stack Tecnológico
 
 ### Core
-- **React 18.2** - UI library con hooks y componentes funcionales
-- **TypeScript 5.2** - Superset tipado de JavaScript
-- **Vite 5.0** - Build tool ultra-rápido con HMR
+```
+React 18.2      →  Librería UI moderna con hooks
+TypeScript 5.2  →  Type safety y mejor DX
+Vite 5.0        →  Build tool ultra-rápido con HMR
+```
 
-### Desarrollo
-- **ESLint** - Linting con reglas para React y TypeScript
-- **CSS3** - Variables CSS para theming y transiciones suaves
+### Tooling
+```
+ESLint          →  Linting con reglas TypeScript + React
+CSS3            →  Custom properties para theming
+GitHub Actions  →  CI/CD automatizado
+```
 
-### Deployment
-- **GitHub Actions** - CI/CD pipeline automatizado
-- **GitHub Pages** - Hosting estático gratuito
-
-### Iconos & Fuentes
-- **Ionicons 7.1** - Biblioteca de iconos moderna
-- **Google Fonts (Poppins)** - Tipografía profesional
+### Librerías Externas (CDN)
+```
+Ionicons 7.1    →  Sistema de iconos moderno
+Poppins Font    →  Tipografía profesional de Google Fonts
+```
 
 ## 📁 Estructura del Proyecto
 
 ```
 diego-ortega-cv/
-├── src/
-│   ├── components/        # Componentes React
+├── 📂 src/
+│   ├── 📂 components/       # Componentes React
 │   │   ├── About.tsx
 │   │   ├── Navbar.tsx
 │   │   ├── Projects.tsx
 │   │   ├── Resume.tsx
 │   │   ├── Sidebar.tsx
 │   │   └── ThemeToggle.tsx
-│   ├── data/             # Configuración de contenido
+│   ├── 📂 data/            # Configuración de contenido
 │   │   ├── about.ts
 │   │   ├── navbar.ts
 │   │   ├── profile.ts
 │   │   ├── projects.ts
-│   │   └── resume.ts
-│   ├── lib/              # Utilidades y helpers
+│   │   ├── resume.ts
+│   │   └── index.ts
+│   ├── 📂 lib/             # Utilidades
+│   │   ├── placeholder-images.json
 │   │   ├── placeholder-images.ts
 │   │   └── theme-init.ts
-│   ├── types/            # Definiciones TypeScript
-│   │   └── config.ts
-│   ├── css/              # Estilos globales
+│   ├── 📂 types/           # Tipos TypeScript
+│   │   ├── config.ts
+│   │   └── custom-elements.d.ts
+│   ├── 📂 css/             # Estilos globales
 │   │   └── style.css
-│   ├── App.tsx           # Componente raíz
-│   └── main.tsx          # Entry point
-├── public/               # Assets estáticos
+│   ├── App.tsx             # Componente raíz
+│   └── main.tsx            # Entry point
+├── 📂 public/              # Assets estáticos
 │   ├── avatars/
 │   ├── icons/
 │   ├── projects/
 │   └── logo.ico
-├── .github/
-│   └── workflows/
-│       └── pages.yml     # GitHub Actions workflow
-└── index.html            # HTML principal
+├── 📂 .github/workflows/   # CI/CD
+│   └── pages.yml
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+└── package.json
 ```
 
-> 📘 Para arquitectura detallada, consulta [ARCHITECTURE.md](./ARCHITECTURE.md)
+> 📘 **Documentación completa**: Ver [ARCHITECTURE.md](./ARCHITECTURE.md) para análisis detallado
 
 ## 🚀 Inicio Rápido
 
 ### Prerrequisitos
 
-- Node.js >= 18.x
-- npm >= 9.x
+```bash
+Node.js  ≥ 18.x
+npm      ≥ 9.x
+```
 
-### Instalación
+### Instalación y Desarrollo
 
 ```bash
-# Clonar el repositorio
+# 1. Clonar repositorio
 git clone https://github.com/Danirak/diego-ortega-portafolio.git
-
-# Navegar al directorio
 cd diego-ortega-portafolio
 
-# Instalar dependencias
+# 2. Instalar dependencias
 npm install
 
-# Iniciar servidor de desarrollo
+# 3. Iniciar servidor de desarrollo
 npm run dev
 ```
 
-El sitio estará disponible en `http://localhost:5173`
+🎉 El sitio estará en **`http://localhost:5173`**
 
-### Scripts Disponibles
+### Comandos Disponibles
 
-```bash
-npm run dev      # Servidor de desarrollo con hot reload
-npm run build    # Build de producción (dist/)
-npm run preview  # Preview del build de producción
-npm run lint     # Linting con ESLint
+| Comando | Descripción |
+|---------|-------------|
+| `npm run dev` | Servidor de desarrollo con hot reload |
+| `npm run build` | Build de producción (salida en `dist/`) |
+| `npm run preview` | Preview del build de producción |
+| `npm run lint` | Linting con ESLint |
+
+## ⚙️ Personalización
+
+### 1. Configurar tu Información
+
+Edita los archivos en **`src/data/`**:
+
+```typescript
+// src/data/profile.ts
+export const profileConfig = {
+  USER: {
+    name: "Tu Nombre",
+    role: "Tu Rol",
+    avatar: getImageUrl('tu-avatar')
+  },
+  INFO: [
+    { label: "Email", value: "tu@email.com" }
+  ],
+  // ...
+}
 ```
 
-## ⚙️ Configuración
+**Archivos de datos:**
+- `profile.ts` → Info del sidebar (nombre, avatar, contacto, redes)
+- `about.ts` → Sección About Me (bio, skills, tecnologías)
+- `resume.ts` → CV (educación, experiencia, habilidades)
+- `projects.ts` → Portfolio de proyectos
+- `navbar.ts` → Menú de navegación
 
-### Personalizar Contenido
+### 2. Gestión de Imágenes
 
-Edita los archivos en `src/data/` para actualizar tu información:
-
-- **`profile.ts`** - Información del sidebar (nombre, foto, contacto, redes sociales)
-- **`about.ts`** - Sección "About me" (presentación, skills, tecnologías)
-- **`resume.ts`** - Educación, experiencia laboral, habilidades
-- **`projects.ts`** - Portfolio de proyectos con imágenes
-- **`navbar.ts`** - Elementos del menú de navegación
-
-### Sistema de Imágenes
-
-Las imágenes se gestionan centralizadamente:
+Sistema centralizado con type safety:
 
 ```typescript
 import { getImageUrl } from '../lib/placeholder-images';
 
-// Obtener URL de imagen por ID
-const avatarUrl = getImageUrl('yo-ia');
+// Usar imagen por ID
+const myImage = getImageUrl('mi-imagen-id');
 ```
 
-Todas las imágenes se registran en `src/lib/placeholder-images.json` y se sirven desde `public/`.
+**Registro de imágenes:**
+1. Agregar imagen a `public/` (ej: `public/avatars/mi-foto.jpg`)
+2. Registrar en `src/lib/placeholder-images.json`:
+   ```json
+   {
+     "id": "mi-foto",
+     "imageUrl": "/avatars/mi-foto.jpg",
+     "imageHint": "avatar",
+     "description_es": "Mi foto"
+   }
+   ```
+3. Usar con `getImageUrl('mi-foto')`
 
-### Configurar para tu GitHub Pages
+### 3. Configurar GitHub Pages
 
 1. **Fork** este repositorio
-2. Renombra a `tu-usuario.github.io` (o cualquier nombre)
-3. Actualiza el `base` en `vite.config.ts`:
+2. Actualizar `base` en **`vite.config.ts`**:
    ```typescript
    export default defineConfig({
      plugins: [react()],
-     base: '/tu-repo-name/',  // Cambia esto
+     base: '/tu-repo-name/',  // ⚠️ Cambiar esto
    })
    ```
-4. Habilita GitHub Pages en: `Settings > Pages > Source: GitHub Actions`
-5. Push a `main` para deployar automáticamente
+3. Habilitar GitHub Pages:
+   - `Settings` → `Pages`
+   - Source: **GitHub Actions**
+4. **Push** a `main` → Deploy automático ✨
 
-## 🎨 Personalización de Tema
+### 4. Personalizar Tema
 
-El tema día/noche usa CSS variables definidas en `src/css/style.css`:
+Editar variables CSS en **`src/css/style.css`**:
 
 ```css
 /* Tema oscuro (default) */
 :root {
-  --bg-gradient-onyx: ...;
-  --text-color: ...;
+  --bg-gradient-onyx: linear-gradient(...);
+  --text-color: #ffffff;
+  /* ... */
 }
 
 /* Tema claro */
 [data-theme="light"] {
-  --bg-gradient-onyx: ...;
-  --text-color: ...;
+  --bg-gradient-onyx: linear-gradient(...);
+  --text-color: #000000;
+  /* ... */
 }
 ```
 
-El cambio automático ocurre:
-- **6:00 AM - 6:00 PM** → Tema claro ☀️
-- **6:00 PM - 6:00 AM** → Tema oscuro 🌙
-
-La preferencia se guarda en `localStorage`.
+**Horario de cambio automático:**
+- 🌅 6:00 AM - 6:00 PM → Tema claro
+- 🌙 6:00 PM - 6:00 AM → Tema oscuro
 
 ## 📦 Build de Producción
 
@@ -191,178 +256,111 @@ La preferencia se guarda en `localStorage`.
 npm run build
 ```
 
-Genera una build optimizada en `dist/` con:
-- ✅ Assets minificados y hasheados
+**Output en `dist/`:**
+- ✅ Assets minificados con hash (cache busting)
 - ✅ Code splitting automático
-- ✅ Tree shaking
+- ✅ Tree shaking de dependencias
+- ✅ CSS inlineado en JS
 - ✅ Source maps para debugging
 
 ## 🚀 Deployment
 
-### GitHub Pages (Automático)
+### GitHub Pages (Recomendado)
 
-El proyecto incluye GitHub Actions workflow (`.github/workflows/pages.yml`) que:
+**Automático con GitHub Actions:**
 
-1. Se ejecuta automáticamente en cada push a `main`
-2. Instala dependencias (`npm ci`)
-3. Ejecuta build (`npm run build`)
-4. Despliega a GitHub Pages
+El workflow `.github/workflows/pages.yml` ejecuta:
+1. ✓ Checkout del código
+2. ✓ Setup Node.js 20
+3. ✓ `npm ci` (instalación limpia)
+4. ✓ `npm run build`
+5. ✓ Deploy a GitHub Pages
 
-### Deployment Manual
+**Trigger:** Push a rama `main`
+
+### Otros Hostings
 
 ```bash
 npm run build
-# Sube el contenido de dist/ a tu hosting
+# Subir contenido de dist/ a:
+# - Vercel
+# - Netlify  
+# - Cloudflare Pages
+# - Firebase Hosting
 ```
+
+## 🎯 Arquitectura
+
+### Flujo de Datos
+
+```
+index.html
+    ↓
+main.tsx  →  theme-init.ts (inicializa tema)
+    ↓
+App.tsx
+    ↓
+├─ Sidebar    →  profile.ts
+├─ Navbar     →  navbar.ts
+├─ About      →  about.ts     →  placeholder-images
+├─ Resume     →  resume.ts
+├─ Projects   →  projects.ts  →  placeholder-images
+└─ ThemeToggle →  theme-init.ts
+```
+
+### Build Pipeline
+
+```
+Push → GitHub Actions → npm ci → tsc (check) → vite build → dist/ → Deploy
+```
+
+Ver [ARCHITECTURE.md](./ARCHITECTURE.md) para diagramas Mermaid completos.
 
 ## 🤝 Contribuir
 
-Las contribuciones son bienvenidas:
+¡Contribuciones bienvenidas! Sigue estos pasos:
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add: nueva característica'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+1. **Fork** el proyecto
+2. Crea tu rama: `git checkout -b feature/MiFeature`
+3. Commit: `git commit -m 'Add: nueva funcionalidad'`
+4. Push: `git push origin feature/MiFeature`
+5. Abre un **Pull Request**
 
-## 📝 Licencia
+## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver [LICENSE](./LICENSE) para más detalles.
+Este proyecto está bajo la **Licencia MIT**.  
+Ver [LICENSE](./LICENSE) para detalles completos.
 
 ## 👤 Autor
 
+<div align="center">
+
 **Diego Andrés Ortega Araya**
 
-- 🌐 Portfolio: [danirak.github.io/diego-ortega-portafolio](https://danirak.github.io/diego-ortega-portafolio)
-- 📧 Email: 11.diego.ortega@gmail.com
-- 💼 GitHub: [@Danirak](https://github.com/Danirak)
+Analista de I+D especializado en Full Stack Development
 
-## 🙏 Agradecimientos
+[![Portfolio](https://img.shields.io/badge/Portfolio-danirak.github.io-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://danirak.github.io/diego-ortega-portafolio)
+[![Email](https://img.shields.io/badge/Email-11.diego.ortega@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:11.diego.ortega@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@Danirak-black?style=for-the-badge&logo=github)](https://github.com/Danirak)
 
-- [Ionicons](https://ionic.io/ionicons) - Biblioteca de iconos
-- [Google Fonts](https://fonts.google.com/) - Tipografía Poppins
-- [Vite](https://vitejs.dev/) - Build tool increíblemente rápido
-- [React](https://react.dev/) - Librería UI poderosa y flexible
+</div>
+
+## 🙏 Créditos
+
+- [**React**](https://react.dev/) - Librería UI
+- [**TypeScript**](https://www.typescriptlang.org/) - Lenguaje tipado
+- [**Vite**](https://vitejs.dev/) - Build tool ultra-rápido
+- [**Ionicons**](https://ionic.io/ionicons) - Sistema de iconos
+- [**Google Fonts**](https://fonts.google.com/) - Tipografía Poppins
 
 ---
 
 <div align="center">
 
-Hecho con ❤️ y ☕ por Diego Ortega
+**Hecho con ❤️ y ☕ por Diego Ortega**
 
-⭐ Si te gustó el proyecto, considera darle una estrella
+⭐ ¿Te gustó? Dale una estrella al repo
+
+[![GitHub stars](https://img.shields.io/github/stars/Danirak/diego-ortega-portafolio?style=social)](https://github.com/Danirak/diego-ortega-portafolio)
 
 </div>
-
-### Step 4
-
-Go to the `src/data/` folder and replace the default data with your personal information in the TypeScript files.
-
-```bash
-src/data
-├── about.ts       # About section data
-├── blog.ts        # Blog posts data
-├── contact.ts     # Contact information
-├── navbar.ts      # Navigation menu
-├── profile.ts     # Profile/sidebar data
-├── projects.ts    # Portfolio projects
-├── resume.ts      # Education, experience, skills
-└── index.ts       # Main config export
-```
-
-For example, to set your contact information, edit `src/data/profile.ts`.
-
-```typescript
-export const profileConfig: ProfileConfig = {
-  USER: {
-    role: "iOS Developer",
-    name: "Richard Hendricks",
-    username: "richardhendricks",
-    avatar: "/config/assets/avatars/my-avatar.png"
-  },
-  INFO: [
-    {
-      label: "Email",
-      value: "richard@example.com",
-      icon: "mail-outline"
-    },
-    // ... more info
-  ],
-  // ... more config
-};
-```
-
-> [!IMPORTANT]
-> TypeScript provides type safety and autocompletion. Your IDE will help you understand the expected data structure for each field.
-
-<br/>
-
-> [!TIP]
-> You can upload your images directly to the `config/assets` folder or use an image server like [Imgur][imgur]. Both options are valid for customizing your portfolio. For example:
->
-> `avatar: "https://i.imgur.com/H5gx7JF.png"`
->
-> `avatar: "/config/assets/avatars/my-avatar.png"`
-
-### Step 5: Development
-
-To run the project locally:
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-### Step 6: Enjoy 😉
-
-Now you can visit your portfolio at `https://your_github_username.github.io`
-
-Your personal portfolio will be built and updated automatically whenever any changes occur in the configuration files.
-
-> [!NOTE]
-> If you like my work and want to show some ❤️, please consider giving a ⭐️ to this Repository.
-
-## Screenshots
-
-![Desktop Demo][desktop-screenshot]
-![Mobile Demo][mobile-screenshot]
-
-## Contribute
-
-Contributions are welcome.
-
-## Facing any Issue?
-
-Feel free to open an [Issue][issue] :)
-
-## Contact
-
-If you want to contact me you can reach me at [Discord][discord].
-
-## Credits
-
-This project is based on [vcard portfolio][vcard] and was migrated from Python/Jinja2 to React/TypeScript using Vite.
-
-## License
-
-MIT
-
-[vcard]: https://github.com/codewithsadee/vcard-personal-portfolio
-[devfolio]: https://danirak.github.io/diego-ortega-portafolio
-[demo]: https://raw.githubusercontent.com/ivansaul/demos/master/python/personal-portfolio-demo.gif
-[discord]: https://discord.com/users/744755977684779038
-[issue]: https://github.com/Danirak/diego-ortega-portafolio/issues
-[github-stars]: https://img.shields.io/github/stars/Danirak/diego-ortega-portafolio?style=social
-[github-forks]: https://img.shields.io/github/forks/Danirak/diego-ortega-portafolio?style=social
-[desktop-screenshot]: https://i.imgur.com/xKkMSwR.png
-[mobile-screenshot]: https://i.imgur.com/G1A1nBu.png
-[imgur]: https://imgur.com

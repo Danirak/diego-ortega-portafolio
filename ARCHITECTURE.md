@@ -82,7 +82,6 @@ diego-ortega-cv/
 │   ├── lib/                       # Utilidades y helpers
 │   │   ├── placeholder-images.json    # Registro de imágenes
 │   │   ├── placeholder-images.ts      # Helpers para gestión de imágenes
-│   │   ├── placeholder-images-unused.json  # Backup de imágenes
 │   │   ├── theme-init.ts          # Inicialización de tema día/noche
 │   │   └── README.md              # Documentación del sistema de imágenes
 │   │
@@ -93,28 +92,13 @@ diego-ortega-cv/
 │   ├── css/                       # Estilos globales
 │   │   └── style.css              # Estilos principales con tema día/noche
 │   │
-│   ├── js/                        # Scripts JavaScript legacy
-│   │   └── script.js              # Scripts no migrados
-│   │
 │   ├── App.tsx                    # Componente raíz de la aplicación
 │   ├── main.tsx                   # Entry point de React
 │   └── vite-env.d.ts              # Tipos de entorno de Vite
 │
-├── config/                        # Configuración legacy (Python/Jinja)
-│   ├── about.yml
-│   ├── blog.yml
-│   ├── contact.yml
-│   ├── navbar.yml
-│   ├── profile.yml
-│   ├── projects.yml
-│   └── resume.yml
-│
 ├── scripts/                       # Scripts de automatización
 │   ├── run-architecture.md        # Script de análisis arquitectónico
 │   └── run-pm.md                  # Script de gestión de proyecto
-│
-├── contexto/                      # Documentación de contexto
-│   └── CV.md                      # Información del CV
 │
 ├── index.html                     # HTML principal (entry point de Vite)
 ├── vite.config.ts                 # Configuración de Vite
@@ -124,6 +108,7 @@ diego-ortega-cv/
 ├── package.json                   # Dependencias y scripts npm
 ├── AGENTS.md                      # Reglas para agentes AI
 ├── MIGRATION.md                   # Documentación de migración
+├── ARCHITECTURE.md                # Este archivo (documentación arquitectónica)
 └── README.md                      # Documentación principal
 ```
 
@@ -400,11 +385,11 @@ Exportación centralizada de todas las configuraciones de datos para facilitar i
 
 ## 📝 Notas de Migración
 
-El proyecto está en transición de:
-- **Origen**: Python + Jinja2 templates → HTML estático
+El proyecto fue completamente migrado de:
+- **Origen**: Python + Jinja2 + YAML → Generación de HTML estático
 - **Destino**: React + TypeScript + Vite → SPA moderna
 
-Archivos legacy mantenidos en `config/` para referencia histórica.
+La migración eliminó toda la infraestructura Python (config/, contexto/, *.py, poetry) y convirtió los datos YAML en módulos TypeScript tipados en `src/data/`.
 
 ---
 
